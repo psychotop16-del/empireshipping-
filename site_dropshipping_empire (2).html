@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dropshipping Empire – Par Mika</title>
+<style>
+  body { font-family: Arial, sans-serif; margin:0; background:#0f172a; color:#f8fafc; }
+  header { padding:60px 20px; text-align:center; background:linear-gradient(135deg,#2563eb,#4f46e5); }
+  header h1 { font-size:42px; margin-bottom:10px; }
+  header p { font-size:18px; }
+  .container { max-width:1100px; margin:auto; padding:40px 20px; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(280px,1fr)); gap:30px; }
+  .card { background:#020617; border-radius:16px; padding:30px; box-shadow:0 10px 30px rgba(0,0,0,.4); }
+  .card h2 { font-size:26px; margin-bottom:10px; }
+  .price { font-size:36px; font-weight:bold; margin:20px 0; }
+  ul { padding-left:20px; }
+  li { margin-bottom:10px; }
+  a.button { display:block; width:100%; padding:14px; font-size:16px; border:none; border-radius:10px; cursor:pointer; text-decoration:none; text-align:center; background:#2563eb; color:white; transition:0.3s; }
+  a.button:hover { background:#1d4ed8; }
+  .premium { border:2px solid #22c55e; }
+  footer { text-align:center; padding:30px; font-size:14px; color:#94a3b8; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>DROPSHIPPING EMPIRE</h1>
+  <p>Le système complet pour lancer une boutique rentable avec Shopify</p>
+</header>
+
+<section class="container">
+  <h2 style="text-align:center;margin-bottom:40px;">Choisis ton accès</h2>
+  <div class="cards">
+
+    <div class="card">
+      <h2>Offre Standard</h2>
+      <p>Idéal pour débuter sereinement</p>
+      <div class="price">49€</div>
+      <ul>
+        <li>📘 Ebook premium (30–40 pages)</li>
+        <li>🧠 Méthode complète dropshipping</li>
+        <li>📋 Plan d’action étape par étape</li>
+        <li>❌ Boutique clé en main</li>
+      </ul>
+      <a class="button" href="https://buy.stripe.com/8x2dR827fc1Egu89FJbEA01" target="_blank">Choisir l’offre 49€</a>
+    </div>
+
+    <div class="card premium">
+      <h2>Offre Premium</h2>
+      <p>La solution la plus rapide</p>
+      <div class="price">97€</div>
+      <ul>
+        <li>📘 Ebook premium (30–40 pages)</li>
+        <li>🏪 Boutique Shopify clé en main</li>
+        <li>🔐 Accès privé exclusif</li>
+        <li>🚀 Checklist & bonus</li>
+      </ul>
+      <a class="button" href="https://buy.stripe.com/fZu5kC27fe9M3Hm2dhbEA02" target="_blank">Choisir l’offre 97€</a>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 – Dropshipping Empire | Par Mika
+</footer>
+
+<!-- Page Merci + Accès intégrée -->
+<script>
+if(window.location.pathname.includes('merci.html')) {
+  document.body.innerHTML = `
+  <header>
+    <h1>Merci pour ton achat !</h1>
+    <p>Tu as maintenant accès à ton Ebook et à ta boutique clé en main</p>
+  </header>
+  <div class='container'>
+    <p>Félicitations ! 🎉</p>
+    <p>Voici les liens pour commencer immédiatement :</p>
+    <a class='button' href='https://tonlienebook.com' target='_blank'>📘 Télécharger l’Ebook Premium</a>
+    <a class='button' href='https://tonlienboutique.com' target='_blank'>🏪 Accéder à la Boutique Shopify Clé en Main</a>
+    <p>Suivez simplement les étapes indiquées dans l’Ebook et dans la boutique pour lancer votre business.</p>
+    <p>Si vous avez des questions, contactez-nous : <a href='mailto:contact@tonsite.com'>contact@tonsite.com</a></p>
+  </div>
+  `;
+}
+</script>
+
+</body>
+</html>
